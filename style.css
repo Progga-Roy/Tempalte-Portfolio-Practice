@@ -39,3 +39,57 @@ ul li:hover{
     background-color: rgb(204, 204, 204);
     
 }
+.about-container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.about-title{
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+}
+.hobby-title{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(99, 99, 99);
+}
+.detail-website{
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(99, 99, 99);
+}
+.about-myself{
+    display: flex;
+   
+    gap: 25px;
+    margin-top: 70px;
+}
+.name{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(99, 99, 99);
+}
+.my-img{
+    width: 50%;
+    margin-top: 30px;
+    opacity: 0.75;
+}
+.img-div{
+    width: 50%;
+}
+.description-div{
+    width: 50%;
+}
+.img-div img{
+    width: 100%;
+}
+.description-div{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(99, 99, 99);
+}
