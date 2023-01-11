@@ -1,0 +1,41 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.header{
+    background: url('./Images/pic-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 0.75;
+
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   background-color: rgb(48, 47, 47);
+   color: aliceblue;
+   width: 350px;
+   height: 35px;
+   font-size: 28px;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   margin-top: 150px;
+}
+.nav ul{
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+   
+}
+ul li{
+    list-style: none;
+    padding: 7px 12px;
+    font-size: 14px;
+}
+ul li:hover{
+    background-color: rgb(204, 204, 204);
+    
+}
