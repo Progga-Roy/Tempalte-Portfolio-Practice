@@ -310,7 +310,6 @@ ul li:hover {
 
 .address {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
     gap: 20px;
@@ -536,123 +535,124 @@ ul li:hover {
         height: 300px;
 
     }
-
-}
-
-.name {
-    font-size: 18px;
-    margin: 0 auto;
-
-}
-
-.review-container {
-
-    flex-direction: column;
-    gap: 15px;
-
-}
-
-.works {
-
-    grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-
-}
-
-.contact {
-    margin-top: 60px;
-    background-image: url('./Images/pic-2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-
-    object-fit: cover;
-    width: 100%;
-    height: 300px;
-
-}
-
-.about-container {
-    max-width: 100%;
-    margin: 0 auto;
-
-}
-
-.my-work {
-    max-width: 100%;
-    margin: 0 auto;
-
-}
-
-.address-container {
-    max-width: 100%;
-    margin: 0 auto;
-
-}
-
-.address {
-
-
-    grid-template-columns: repeat(1, 1fr);
-
-}
-
-.address-text {
-    text-align: center;
-}
-
-.map img {
-    width: 100%;
-}
-
-.form {
-
-    grid-template-columns: repeat(1, 1fr);
-
-
-    margin-top: 30px;
-}
-
-#name {
-    width: 50%;
-    margin-left: 50px;
-
-}
-
-#email {
-    width: 50%;
-
-}
-
-#massage {
-    width: 100%;
-    margin-left: 60px;
-}
-
-.massage-btn {
-
-    margin-left: 85px;
-    white-space: nowrap;
-
-}
-
-.send-btn {
-
-    padding: 8px 14px;
-    border: 0;
-    font-size: 16px;
-
-
-}
-
-.footer {
-    width: 100%;
-
-}
-
-.back-to-top {
-    margin-left: 140px;
-    margin-top: 100px;
-
+    .name {
+        font-size: 18px;
+        margin: 0 auto;
+    
+    }
+    
+    .review-container {
+    
+        flex-direction: column;
+        gap: 15px;
+    
+    }
+    
+    .works {
+    
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    
+    }
+    
+    .contact {
+        margin-top: 60px;
+        background-image: url('./Images/pic-2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+    
+    }
+    
+    .about-container {
+        max-width: 100%;
+        margin: 0 auto;
+    
+    }
+    
+    .my-work {
+        max-width: 100%;
+        margin: 0 auto;
+    
+    }
+    
+    .address-container {
+        max-width: 100%;
+        margin: 0 auto;
+    
+    }
+    
+    .address {
+    
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .address-text {
+        text-align: center;
+    }
+    
+    .map img {
+        width: 100%;
+    }
+    
+    .form {
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+    
+        margin-top: 30px;
+    }
+    
+    #name {
+        width: 50%;
+        margin-left: 50px;
+    
+    }
+    
+    #email {
+        width: 50%;
+    
+    }
+    
+    #massage {
+        width: 100%;
+        margin-left: 60px;
+    }
+    
+    .massage-btn {
+    
+        margin-left: 85px;
+        white-space: nowrap;
+    
+    }
+    
+    .send-btn {
+    
+        padding: 8px 14px;
+        border: 0;
+        font-size: 16px;
+    
+    
+    }
+    
+    .footer {
+        width: 100%;
+    
+    }
+    
+    .back-to-top {
+        margin-left: 140px;
+        margin-top: 100px;
+    
+    
+    }
+    }
+    
 
 }
 
