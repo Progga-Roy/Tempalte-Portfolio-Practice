@@ -34,40 +34,41 @@
     text-transform: uppercase;
     /* position: relative; */
 
-} 
+}
 
- ul li {
+ul li {
     list-style: none;
     padding: 7px 12px;
-    font-size: 14px;
+    font-size: 16px;
     position: sticky;
     top: 0;
-} 
- 
+}
+
 ul li:hover {
     background-color: rgb(204, 204, 204);
 
 }
-#home{
+
+#home {
     text-decoration: none;
     color: black;
 }
 
 .about-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     margin-top: 80px;
 }
 
 .about-title {
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(99, 99, 99);
 }
 
 .hobby-title {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     margin-top: 15px;
     color: rgb(99, 99, 99);
@@ -75,20 +76,19 @@ ul li:hover {
 
 .detail-website {
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 1px;
     color: rgb(99, 99, 99);
 }
 
 .about-myself {
     display: flex;
-
-    gap: 25px;
+    gap: 35px;
     margin-top: 70px;
 }
 
 .name {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     font-weight: 700;
     color: rgb(99, 99, 99);
@@ -117,7 +117,7 @@ ul li:hover {
 }
 
 .description-div {
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 1px;
     color: rgb(99, 99, 99);
 }
@@ -127,6 +127,7 @@ ul li:hover {
 }
 
 .skill-title {
+    font-size: 18px;
     text-align: center;
     color: rgb(99, 99, 99);
 }
@@ -136,43 +137,43 @@ ul li:hover {
     letter-spacing: 3px;
     color: rgb(99, 99, 99);
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .container {
     margin-top: 15px;
     width: 100%;
-    height: 25px;
+    height: 35px;
     background-color: rgb(234, 232, 232);
     text-align: center;
     color: #ffff;
-    /* padding: 5px 0; */
+
 
 
 }
 
 #photography {
     width: 90%;
-    height: 25px;
+    height: 35px;
     background-color: rgb(126, 126, 126);
-    font-size: 14px;
+    font-size: 17px;
 
 
 }
 
 #web-design {
     width: 85%;
-    height: 25px;
+    height: 35px;
     background-color: rgb(126, 126, 126);
-    font-size: 14px;
+    font-size: 17px;
 
 }
 
 #photo-shop {
     width: 75%;
-    height: 25px;
+    height: 35px;
     background-color: rgb(126, 126, 126);
-    font-size: 14px;
+    font-size: 17px;
 
 }
 
@@ -184,18 +185,18 @@ ul li:hover {
     background-color: rgb(126, 126, 126);
     padding: 40px 0;
     color: #ffff;
-    font-size: 17px;
+    font-size: 28px;
 }
 
 .review-title {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .portfolio-img {
     background-image: url('./Images/pic-3.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -218,7 +219,7 @@ ul li:hover {
 }
 
 .my-work {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -226,13 +227,13 @@ ul li:hover {
 .work-title {
     text-transform: uppercase;
     color: rgb(99, 99, 99);
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
 }
 
 .work-title-detail {
     color: rgb(99, 99, 99);
-    font-size: 12px;
+    font-size: 17px;
     margin-top: 20px;
     text-align: center;
 }
@@ -264,26 +265,32 @@ ul li:hover {
     text-transform: uppercase;
     background-color: rgb(233, 233, 233);
     letter-spacing: 1px;
+    font-size: 17px;
 }
 
 .btn:hover {
     background-color: rgb(198, 197, 197);
 }
 
+
+
+
 .contact {
     margin-top: 60px;
     background-image: url('./Images/pic-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     object-fit: cover;
     height: 300px;
     opacity: 0.75;
+    width: 100%;
 }
 
 .contact-title {
     text-align: center;
     margin-top: 60px;
-    font-size: 22px;
+    font-size: 28px;
     text-transform: uppercase;
     color: rgb(99, 99, 99);
 }
@@ -292,11 +299,11 @@ ul li:hover {
     text-align: center;
     color: rgb(99, 99, 99);
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .address-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 
 }
@@ -313,22 +320,25 @@ ul li:hover {
     width: 100%;
 }
 
-.address-text{
+.address-text {
     margin-top: 15px;
     gap: 10px;
     color: rgb(99, 99, 99);
-   
+
 }
-.icon{
+
+.icon {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(99, 99, 99);
     margin-left: 10px;
 
 }
+
 #icon {
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 18px;
+    white-space: nowrap;
     color: rgb(99, 99, 99);
     margin-left: 10px;
 }
@@ -340,8 +350,9 @@ ul li:hover {
 .form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-right: 66px;
+    margin-right: 104px;
 
+    margin-top: 20px;
 }
 
 .input {
@@ -350,21 +361,23 @@ ul li:hover {
 }
 
 #name {
-    width: 210px;
+    width: 240px;
     height: 30px;
     color: rgb(99, 99, 99);
+    font-size: 17px;
 }
 
 #email {
-    width: 210px;
+    width: 240px;
     height: 30px;
     color: rgb(99, 99, 99);
     margin-left: 10px;
+    font-size: 17px;
 }
 
 #massage {
     margin-top: 10px;
-
+    font-size: 17px;
     height: 30px;
     color: rgb(99, 99, 99);
 
@@ -373,15 +386,18 @@ ul li:hover {
 .massage-btn {
     text-align: end;
     margin-top: 15px;
-    margin-right: 67px;
+    margin-right: 105px;
+
 }
 
 .send-btn {
     text-transform: uppercase;
     background-color: #000;
     color: #ffff;
-    padding: 8px 18px;
+    padding: 10px 18px;
     border: 0;
+    font-size: 17px;
+
 }
 
 .send-btn:hover {
@@ -407,12 +423,12 @@ ul li:hover {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 6px;
     color: #ffff;
     gap: 7px;
     margin-top: 10px;
-  
+
 
 }
 
@@ -426,12 +442,13 @@ ul li:hover {
 
 
 .back-to-top {
-    padding: 10px 12px;
-    margin-left: 550px;
+    padding: 10px 14px;
+    margin-left: 700px;
     margin-top: 90px;
     background-color: #ffff;
     border: 0;
-   margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
 
 }
 
@@ -443,9 +460,10 @@ ul li:hover {
     text-align: center;
     color: #ffff;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     margin-top: 15px;
+    letter-spacing: 1.5px;
 
 }
 
@@ -454,147 +472,187 @@ ul li:hover {
 }
 
 @media screen and (max-width:576px) {
+
     .nav ul {
         flex-direction: column;
         margin-left: -30px;
         /* text-align: center; */
-    
-    } 
-    
-.header {
-    background: url('./Images/pic-1.jpg');
-     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%; 
-    object-fit: cover;
-    
+
+    }
+
+    .header {
+        background: url('./Images/pic-1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        object-fit: cover;
+
+
+    }
+
+    ul li:hover {
+        background-color: rgb(204, 204, 204);
+        width: 20%;
+        white-space: nowrap;
+
+    }
+
+    .header-logo {
+
+        margin-top: 60px;
+    }
+
+    .about-container {
+
+        text-align: center;
+    }
+
+    .my-img {
+        width: 100%;
+
+    }
+
+    .img-div {
+        width: 100%;
+    }
+
+    .description-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-myself {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-img {
+        background-image: url('./Images/pic-3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        width: 100%;
+        height: 300px;
+
+    }
 
 }
-ul li:hover {
-    background-color: rgb(204, 204, 204);
-    width: 20%;
-    white-space: nowrap;
 
-}
-.header-logo {
-   
-    margin-top: 60px;
-}
-.about-container {
-  
-    text-align: center;
-}
-.my-img {
-    width: 100%;
-    
-}
-.img-div {
-    width: 100%;
-}
-.description-div {
-    width: 100%;
-    text-align: center;
-}
-.about-myself {
-    display: flex;
-    flex-direction: column;
-
-   
-}
 .name {
     font-size: 18px;
     margin: 0 auto;
-   
+
 }
+
 .review-container {
-  
+
     flex-direction: column;
     gap: 15px;
-    
+
 }
+
 .works {
-   
+
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
-   
+
 }
+
 .contact {
     margin-top: 60px;
     background-image: url('./Images/pic-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
+
     object-fit: cover;
-   width: 100%;
-   
+    width: 100%;
+    height: 300px;
+
 }
+
 .about-container {
     max-width: 100%;
     margin: 0 auto;
-   
+
 }
+
 .my-work {
     max-width: 100%;
     margin: 0 auto;
 
 }
+
 .address-container {
     max-width: 100%;
     margin: 0 auto;
 
 }
+
 .address {
-  
+
 
     grid-template-columns: repeat(1, 1fr);
-   
+
 }
-/* #icon {
-  margin-left: 50px;
-} */
-.address-text{
-   text-align: center;
+
+.address-text {
+    text-align: center;
 }
+
 .map img {
     width: 100%;
 }
 
 .form {
-    
+
     grid-template-columns: repeat(1, 1fr);
 
-   
-margin-top: 30px;
+
+    margin-top: 30px;
 }
 
 #name {
     width: 50%;
-    margin-left: 15px;
-    
+    margin-left: 50px;
+
 }
-#email{
+
+#email {
     width: 50%;
-    
+
 }
-#massage{
+
+#massage {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 60px;
 }
+
 .massage-btn {
-    text-align: center;
-    margin-left:70px;
-   
+
+    margin-left: 85px;
+    white-space: nowrap;
+
 }
-.footer{
+
+.send-btn {
+
+    padding: 8px 14px;
+    border: 0;
+    font-size: 16px;
+
+
+}
+
+.footer {
     width: 100%;
+
 }
+
 .back-to-top {
-  
-    margin-left: 130px;
-    margin-top: 60px;
-   
-   margin-bottom: 15px;
+    margin-left: 140px;
+    margin-top: 100px;
+
 
 }
 
-}
