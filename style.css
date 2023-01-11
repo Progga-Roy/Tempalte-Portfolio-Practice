@@ -220,7 +220,7 @@ ul li:hover{
    
 }
 .btn{
-    padding: 12px 20px;
+    padding: 14px 18px;
     border: 0;
     text-transform: uppercase;
     background-color: rgb(233, 233, 233);
@@ -228,4 +228,86 @@ ul li:hover{
 }
 .btn:hover{
     background-color: rgb(198, 197, 197);
+}
+.contact{
+    margin-top: 60px;
+    background-image: url('./Images/pic-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 300px;
+    opacity: 0.75;
+}
+.contact-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+}
+.feedback-title{
+    text-align: center;
+    color: rgb(99, 99, 99);
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.address-container{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.address{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    gap: 20px;
+} 
+.map img{
+    width: 100%;
+}
+.icon{
+    margin-top: 15px;
+    gap: 10px;
+    color: rgb(99, 99, 99);
+    margin-left: 10px;
+}
+#icon{
+     margin-top: 10px; 
+   
+font-size: 12px;
+    color: rgb(99, 99, 99);
+    margin-left: 10px;
+}
+ /* .fa-solid{
+    margin-left: -30px;
+} */
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 66px;
+   
+}
+.input{
+    white-space: nowrap;
+    
+}
+#name{
+width: 210px;
+     height: 30px;
+     color: rgb(99, 99, 99);
+}
+#email{
+    width: 210px;
+     height: 30px;
+     color: rgb(99, 99, 99);
+     margin-left: 10px;
+}
+#massage{
+    margin-top: 10px;
+    
+    height: 30px;
+    color: rgb(99, 99, 99);
 }
