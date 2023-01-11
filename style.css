@@ -474,6 +474,7 @@ ul li:hover {
 ul li:hover {
     background-color: rgb(204, 204, 204);
     width: 20%;
+    white-space: nowrap;
 
 }
 .header-logo {
@@ -486,8 +487,7 @@ ul li:hover {
 }
 .my-img {
     width: 100%;
-    /* margin-top: 30px;
-    opacity: 0.75; */
+    
 }
 .img-div {
     width: 100%;
