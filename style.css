@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     height: 400px;
     opacity: 0.75;
 
@@ -40,8 +41,8 @@ ul li {
     list-style: none;
     padding: 7px 12px;
     font-size: 16px;
-    position: sticky;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
 }
 
 ul li:hover {
@@ -197,6 +198,7 @@ ul li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -281,6 +283,7 @@ ul li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     object-fit: cover;
     height: 300px;
     opacity: 0.75;
@@ -450,6 +453,12 @@ ul li:hover {
     font-size: 17px;
 
 }
+/* .back-to-top{
+    position: relative;
+    left: 700px;
+    /* top: 100px; */
+    padding: 10px 14px;
+} */
 
 .back-to-top:hover {
     background-color: rgb(205, 203, 203);
