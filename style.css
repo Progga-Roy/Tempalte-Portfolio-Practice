@@ -2,10 +2,12 @@
     font-family: 'Lato', sans-serif;
     margin: 0;
     scroll-behavior: smooth;
+   text-decoration: none;
 }
 
 .header {
     background: url('./Images/pic-1.jpg');
+    /* background-image: url(./me.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,22 +19,9 @@
 }
 
 .header-logo {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    background-color: #000;
-    color: aliceblue;
-    width: 400px;
-    height: 38px;
-    font-size: 28px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 250px;
-    margin-top: 50px; */
     position: relative;
     left: 0px;
-    top: 300px;
+    top: 285px;
     text-align: center;
     margin: 0 auto;
     background-color: #000;
@@ -43,15 +32,16 @@
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.nav{
+
+.nav {
     position: fixed;
     top: 0;
     /* background-color: rgba(0,0,0,0.6);
     background-color: #ffff; */
     /* padding: 20px; */
-    height: 30px;
+    /* height: 30px; */
     width: 100%;
-   
+
 }
 
 .nav ul {
@@ -498,6 +488,9 @@ ul li:hover {
 .back-to-top:hover {
     background-color: rgb(205, 203, 203);
 }
+.back-to-top a{
+    color: rgb(99, 99, 99);
+}
 
 .copyright-text {
     text-align: center;
@@ -531,19 +524,20 @@ ul li:hover {
         /* background-attachment: fixed; */
         width: 100%;
         object-fit: cover;
-       
+
 
 
     }
-    .nav{
-       
-       position: static;
+
+    .nav {
+
+        position: static;
         /* background-color: rgba(0,0,0,0.6);
         background-color: #ffff; */
         /* padding: 20px; */
         height: 0;
-        
-       
+
+
     }
 
     ul li:hover {
